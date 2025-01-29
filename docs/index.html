@@ -14,8 +14,8 @@
 
     <!-- Webmanifest + Favicon / App icons -->
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" type="image/png" href="assets/app-icons/icon-32x32.png" sizes="32x32">
-    <link rel="apple-touch-icon" href="assets/app-icons/icon-180x180.png">
+    <!-- <link rel="icon" type="image/png" href="assets/app-icons/icon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="assets/app-icons/icon-180x180.png"> -->
         
     <!-- Theme switcher (color modes) -->
     <script src="assets/js/theme-switcher.js"></script>
@@ -180,7 +180,7 @@ v
             </label>
           </div>
 
-          <a class="btn btn-primary btn-sm fs-sm rounded-pill order-lg-3 d-none d-sm-inline-flex" href="https://themes.getbootstrap.com/product/around-multipurpose-template-ui-kit/" target="_blank" rel="noopener">
+          <a class="btn btn-primary btn-sm fs-sm rounded-pill order-lg-3 d-none d-sm-inline-flex" href="#contact" target="_blank" rel="noopener">
             <i class="ai-phone fs-xl me-2 ms-n1"></i>
             Contact Me
           </a>
@@ -202,8 +202,8 @@ v
               </li>
             </ul>
             <div class="d-sm-none p-3 mt-n3">
-              <a class="btn btn-primary w-100 rounded-pill mb-1" href="https://themes.getbootstrap.com/product/around-multipurpose-template-ui-kit/" target="_blank" rel="noopener">
-                <i class="ai-cart fs-xl me-2 ms-n1"></i>
+              <a class="btn btn-primary w-100 rounded-pill mb-1" href="#contact" target="_blank" rel="noopener">
+                <i class="ai-phone fs-xl me-2 ms-n1"></i>
                 Contact Me
               </a>
             </div>
@@ -340,166 +340,163 @@ v
       </section>
 
 
-      <!-- Skills (Carousel) -->
-      <section class="pt-2 py-md-4 py-lg-5 mt-2 mt-xl-4 mt-xxl-5">
-        <div class="container d-flex align-items-center justify-content-between pb-4 mb-sm-2 mb-md-3">
-          <h2 class="h1 mb-0">Our skills</h2>
+      <!-- <\!-- Skills (Carousel) -\-> -->
+      <!-- <section class="pt-2 py-md-4 py-lg-5 mt-2 mt-xl-4 mt-xxl-5"> -->
+      <!--   <div class="container d-flex align-items-center justify-content-between pb-4 mb-sm-2 mb-md-3"> -->
+      <!--     <h2 class="h1 mb-0">Our skills</h2> -->
 
-          <!-- Slider control buttons (Prev / Next) -->
-          <div class="d-flex">
-            <button class="btn btn-sm btn-icon btn-outline-primary rounded-circle" type="button" id="prev-skill" aria-label="Prev">
-              <i class="ai-arrow-left"></i>
-            </button>
-            <button class="btn btn-sm btn-icon btn-outline-primary rounded-circle ms-3" type="button" id="next-skill" aria-label="Next">
-              <i class="ai-arrow-right"></i>
-            </button>
-          </div>
-        </div>
+      <!--     <\!-- Slider control buttons (Prev / Next) -\-> -->
+      <!--     <div class="d-flex"> -->
+      <!--       <button class="btn btn-sm btn-icon btn-outline-primary rounded-circle" type="button" id="prev-skill" aria-label="Prev"> -->
+      <!--         <i class="ai-arrow-left"></i> -->
+      <!--       </button> -->
+      <!--       <button class="btn btn-sm btn-icon btn-outline-primary rounded-circle ms-3" type="button" id="next-skill" aria-label="Next"> -->
+      <!--         <i class="ai-arrow-right"></i> -->
+      <!--       </button> -->
+      <!--     </div> -->
+      <!--   </div> -->
 
-        <!-- Swiper slider -->
-        <div class="container-start">
-          <div class="swiper" data-swiper-options='{
-            "slidesPerView": "auto",
-            "spaceBetween": 24,
-            "loop": true,
-            "navigation": {
-              "prevEl": "#prev-skill",
-              "nextEl": "#next-skill"
-            }
-          }'>
-            <div class="swiper-wrapper text-center">
+      <!--   <\!-- Swiper slider -\-> -->
+      <!--   <div class="container-start"> -->
+      <!--     <div class="swiper" data-swiper-options='{ -->
+      <!--       "slidesPerView": "auto", -->
+      <!--       "spaceBetween": 24, -->
+      <!--       "loop": true, -->
+      <!--       "navigation": { -->
+      <!--         "prevEl": "#prev-skill", -->
+      <!--         "nextEl": "#next-skill" -->
+      <!--       } -->
+      <!--     }'> -->
+      <!--       <div class="swiper-wrapper text-center"> -->
+      <!--         <\!-- Item -\-> -->
+      <!--         <div class="swiper-slide w-sm-auto h-auto"> -->
+      <!--           <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5"> -->
+      <!--             <div class="card-flip-inner mx-auto" style="max-width: 306px;"> -->
+      <!--               <div class="card-flip-front p-0"> -->
+      <!--                 <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100"> -->
+      <!--                   <img src="assets/img/landing/web-studio/skills/figma.svg" width="72" alt="Figma"> -->
+      <!--                 </div> -->
+      <!--               </div> -->
+      <!--               <div class="card-flip-back p-0 bg-transparent"> -->
+      <!--                 <div class="card-body d-flex flex-column justify-content-center align-items-center h-100"> -->
+      <!--                   <img src="assets/img/landing/web-studio/skills/figma.svg" width="52" alt="Figma"> -->
+      <!--                   <p class="fs-sm pt-3 mb-0">Figma is convenient online service for interface development and prototyping with the ability to work together in real time.</p> -->
+      <!--                 </div> -->
+      <!--               </div> -->
+      <!--             </div> -->
+      <!--           </div> -->
+      <!--         </div> -->
 
-              <!-- Item -->
-              <div class="swiper-slide w-sm-auto h-auto">
-                <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5">
-                  <div class="card-flip-inner mx-auto" style="max-width: 306px;">
-                    <div class="card-flip-front p-0">
-                      <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100">
-                        <img src="assets/img/landing/web-studio/skills/figma.svg" width="72" alt="Figma">
-                      </div>
-                    </div>
-                    <div class="card-flip-back p-0 bg-transparent">
-                      <div class="card-body d-flex flex-column justify-content-center align-items-center h-100">
-                        <img src="assets/img/landing/web-studio/skills/figma.svg" width="52" alt="Figma">
-                        <p class="fs-sm pt-3 mb-0">Figma is convenient online service for interface development and prototyping with the ability to work together in real time.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <!--         <\!-- Item -\-> -->
+      <!--         <div class="swiper-slide w-sm-auto h-auto"> -->
+      <!--           <div class="card border-0 bg-secondary h-100"> -->
+      <!--             <div class="card-body mx-auto" style="max-width: 416px;"> -->
+      <!--               <p class="fs-lg mb-1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere finibus dui, eget scelerisque ipsum suscipit nec. Praesent nec quam in ipsum ultricies ultricies et sagittis dui. Sed condimentum felis at pretium."</p> -->
+      <!--               <img src="assets/img/brands/foster.svg" width="150" alt="Foster"> -->
+      <!--             </div> -->
+      <!--           </div> -->
+      <!--         </div> -->
 
-              <!-- Item -->
-              <div class="swiper-slide w-sm-auto h-auto">
-                <div class="card border-0 bg-secondary h-100">
-                  <div class="card-body mx-auto" style="max-width: 416px;">
-                    <p class="fs-lg mb-1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere finibus dui, eget scelerisque ipsum suscipit nec. Praesent nec quam in ipsum ultricies ultricies et sagittis dui. Sed condimentum felis at pretium."</p>
-                    <img src="assets/img/brands/foster.svg" width="150" alt="Foster">
-                  </div>
-                </div>
-              </div>
+      <!--         <\!-- Item -\-> -->
+      <!--         <div class="swiper-slide w-sm-auto h-auto"> -->
+      <!--           <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5"> -->
+      <!--             <div class="card-flip-inner mx-auto" style="max-width: 306px;"> -->
+      <!--               <div class="card-flip-front p-0"> -->
+      <!--                 <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100"> -->
+      <!--                   <img src="assets/img/landing/web-studio/skills/css3.svg" width="72" alt="CSS3"> -->
+      <!--                 </div> -->
+      <!--               </div> -->
+      <!--               <div class="card-flip-back p-0 bg-transparent"> -->
+      <!--                 <div class="card-body d-flex flex-column justify-content-center align-items-center h-100"> -->
+      <!--                   <img src="assets/img/landing/web-studio/skills/css3.svg" width="52" alt="CSS3"> -->
+      <!--                   <p class="fs-sm pt-3 mb-0">Cascading Style Sheets Level 3 is the iteration of the CSS standard used in the styling and formatting of Web pages.</p> -->
+      <!--                 </div> -->
+      <!--               </div> -->
+      <!--             </div> -->
+      <!--           </div> -->
+      <!--         </div> -->
 
-              <!-- Item -->
-              <div class="swiper-slide w-sm-auto h-auto">
-                <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5">
-                  <div class="card-flip-inner mx-auto" style="max-width: 306px;">
-                    <div class="card-flip-front p-0">
-                      <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100">
-                        <img src="assets/img/landing/web-studio/skills/css3.svg" width="72" alt="CSS3">
-                      </div>
-                    </div>
-                    <div class="card-flip-back p-0 bg-transparent">
-                      <div class="card-body d-flex flex-column justify-content-center align-items-center h-100">
-                        <img src="assets/img/landing/web-studio/skills/css3.svg" width="52" alt="CSS3">
-                        <p class="fs-sm pt-3 mb-0">Cascading Style Sheets Level 3 is the iteration of the CSS standard used in the styling and formatting of Web pages.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <!--         <\!-- Item -\-> -->
+      <!--         <div class="swiper-slide w-sm-auto h-auto"> -->
+      <!--           <div class="card border-0 bg-secondary h-100"> -->
+      <!--             <div class="card-body mx-auto" style="max-width: 416px;"> -->
+      <!--               <p class="fs-lg mb-1">"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tincidunt imperdiet hendrerit. Fusce tortor turpis, facilisis ac efficitur eget, aliquet ut odio. Curabitur in vestibulum tellus."</p> -->
+      <!--               <img class="d-dark-mode-none" src="assets/img/brands/champion-dark.svg" width="150" alt="Champion"> -->
+      <!--               <img class="d-none d-dark-mode-inline-block" src="assets/img/brands/champion-light.svg" width="150" alt="Champion"> -->
+      <!--             </div> -->
+      <!--           </div> -->
+      <!--         </div> -->
 
-              <!-- Item -->
-              <div class="swiper-slide w-sm-auto h-auto">
-                <div class="card border-0 bg-secondary h-100">
-                  <div class="card-body mx-auto" style="max-width: 416px;">
-                    <p class="fs-lg mb-1">"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tincidunt imperdiet hendrerit. Fusce tortor turpis, facilisis ac efficitur eget, aliquet ut odio. Curabitur in vestibulum tellus."</p>
-                    <img class="d-dark-mode-none" src="assets/img/brands/champion-dark.svg" width="150" alt="Champion">
-                    <img class="d-none d-dark-mode-inline-block" src="assets/img/brands/champion-light.svg" width="150" alt="Champion">
-                  </div>
-                </div>
-              </div>
+      <!--         <\!-- Item -\-> -->
+      <!--         <div class="swiper-slide w-sm-auto h-auto"> -->
+      <!--           <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5"> -->
+      <!--             <div class="card-flip-inner mx-auto" style="max-width: 306px;"> -->
+      <!--               <div class="card-flip-front p-0"> -->
+      <!--                 <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100"> -->
+      <!--                   <img src="assets/img/landing/web-studio/skills/bootstrap.svg" width="72" alt="Bootstrap"> -->
+      <!--                 </div> -->
+      <!--               </div> -->
+      <!--               <div class="card-flip-back p-0 bg-transparent"> -->
+      <!--                 <div class="card-body d-flex flex-column justify-content-center align-items-center h-100"> -->
+      <!--                   <img src="assets/img/landing/web-studio/skills/bootstrap.svg" width="52" alt="Bootstrap"> -->
+      <!--                   <p class="fs-sm pt-3 mb-0">Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components.</p> -->
+      <!--                 </div> -->
+      <!--               </div> -->
+      <!--             </div> -->
+      <!--           </div> -->
+      <!--         </div> -->
 
-              <!-- Item -->
-              <div class="swiper-slide w-sm-auto h-auto">
-                <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5">
-                  <div class="card-flip-inner mx-auto" style="max-width: 306px;">
-                    <div class="card-flip-front p-0">
-                      <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100">
-                        <img src="assets/img/landing/web-studio/skills/bootstrap.svg" width="72" alt="Bootstrap">
-                      </div>
-                    </div>
-                    <div class="card-flip-back p-0 bg-transparent">
-                      <div class="card-body d-flex flex-column justify-content-center align-items-center h-100">
-                        <img src="assets/img/landing/web-studio/skills/bootstrap.svg" width="52" alt="Bootstrap">
-                        <p class="fs-sm pt-3 mb-0">Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <!--         <\!-- Item -\-> -->
+      <!--         <div class="swiper-slide w-sm-auto h-auto"> -->
+      <!--           <div class="card border-0 bg-secondary h-100"> -->
+      <!--             <div class="card-body mx-auto" style="max-width: 416px;"> -->
+      <!--               <p class="fs-lg mb-1">"Nulla facilisi. Curabitur dictum sodales aliquam. Etiam tortor augue, ultrices in efficitur sit amet, luctus dapibus magna. Vivamus eu lacus elementum, ultrices massa vitae, elementum lorem. Proin feugiat egestas dolor."</p> -->
+      <!--               <img src="assets/img/brands/alpine.svg" width="150" alt="Alpine"> -->
+      <!--             </div> -->
+      <!--           </div> -->
+      <!--         </div> -->
 
-              <!-- Item -->
-              <div class="swiper-slide w-sm-auto h-auto">
-                <div class="card border-0 bg-secondary h-100">
-                  <div class="card-body mx-auto" style="max-width: 416px;">
-                    <p class="fs-lg mb-1">"Nulla facilisi. Curabitur dictum sodales aliquam. Etiam tortor augue, ultrices in efficitur sit amet, luctus dapibus magna. Vivamus eu lacus elementum, ultrices massa vitae, elementum lorem. Proin feugiat egestas dolor."</p>
-                    <img src="assets/img/brands/alpine.svg" width="150" alt="Alpine">
-                  </div>
-                </div>
-              </div>
+      <!--         <\!-- Item -\-> -->
+      <!--         <div class="swiper-slide w-sm-auto h-auto"> -->
+      <!--           <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5"> -->
+      <!--             <div class="card-flip-inner mx-auto" style="max-width: 306px;"> -->
+      <!--               <div class="card-flip-front p-0"> -->
+      <!--                 <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100"> -->
+      <!--                   <img src="assets/img/landing/web-studio/skills/python.svg" width="72" alt="Python"> -->
+      <!--                 </div> -->
+      <!--               </div> -->
+      <!--               <div class="card-flip-back p-0 bg-transparent"> -->
+      <!--                 <div class="card-body d-flex flex-column justify-content-center align-items-center h-100"> -->
+      <!--                   <img src="assets/img/landing/web-studio/skills/python.svg" width="52" alt="Python"> -->
+      <!--                   <p class="fs-sm pt-3 mb-0">Python is a programming language that lets you work quickly and integrate systems more effectively.</p> -->
+      <!--                 </div> -->
+      <!--               </div> -->
+      <!--             </div> -->
+      <!--           </div> -->
+      <!--         </div> -->
 
-              <!-- Item -->
-              <div class="swiper-slide w-sm-auto h-auto">
-                <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5">
-                  <div class="card-flip-inner mx-auto" style="max-width: 306px;">
-                    <div class="card-flip-front p-0">
-                      <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100">
-                        <img src="assets/img/landing/web-studio/skills/python.svg" width="72" alt="Python">
-                      </div>
-                    </div>
-                    <div class="card-flip-back p-0 bg-transparent">
-                      <div class="card-body d-flex flex-column justify-content-center align-items-center h-100">
-                        <img src="assets/img/landing/web-studio/skills/python.svg" width="52" alt="Python">
-                        <p class="fs-sm pt-3 mb-0">Python is a programming language that lets you work quickly and integrate systems more effectively.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Item-->
-              <div class="swiper-slide w-sm-auto h-auto">
-                <div class="card border-0 bg-secondary h-100">
-                  <div class="card-body mx-auto" style="max-width: 416px;">
-                    <p class="fs-lg mb-1">"Suspendisse potenti. Nulla vel varius urna. Donec at libero ipsum. Nullam scelerisque tempus malesuada. Donec vehicula odio est, at faucibus purus sollicitudin ut. Fusce mollis ultrices ex sed pellentesque velit euismod."</p>
-                    <img class="d-dark-mode-none" src="assets/img/brands/deloitte-dark.svg" width="150" alt="Deloitte">
-                    <img class="d-none d-dark-mode-inline-block" src="assets/img/brands/deloitte-light.svg" width="150" alt="Deloitte">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <!--         <\!-- Item-\-> -->
+      <!--         <div class="swiper-slide w-sm-auto h-auto"> -->
+      <!--           <div class="card border-0 bg-secondary h-100"> -->
+      <!--             <div class="card-body mx-auto" style="max-width: 416px;"> -->
+      <!--               <p class="fs-lg mb-1">"Suspendisse potenti. Nulla vel varius urna. Donec at libero ipsum. Nullam scelerisque tempus malesuada. Donec vehicula odio est, at faucibus purus sollicitudin ut. Fusce mollis ultrices ex sed pellentesque velit euismod."</p> -->
+      <!--               <img class="d-dark-mode-none" src="assets/img/brands/deloitte-dark.svg" width="150" alt="Deloitte"> -->
+      <!--               <img class="d-none d-dark-mode-inline-block" src="assets/img/brands/deloitte-light.svg" width="150" alt="Deloitte"> -->
+      <!--             </div> -->
+      <!--           </div> -->
+      <!--         </div> -->
+      <!--       </div> -->
+      <!--     </div> -->
+      <!--   </div> -->
+      <!-- </section> -->
 
 
       <!-- Contact form + Benefits -->
-      <section class="bg-secondary pt-5 pb-4">
+      <section class="bg-secondary pt-5 pb-4 contact">
         <div class="container py-lg-2 py-xl-4 py-xxl-5">
           <div class="row mt-1 pt-sm-2 pt-md-3 pt-lg-4">
             <div class="col-lg-5 mb-5 mb-lg-0">
-              <h2 class="h1">Benefits of working with us</h2>
-              <p class="pb-1 pb-md-0 mb-4 mb-md-5">Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin lectus.</p>
-              <h3 class="mb-4">Send your request!</h3>
+              <h3 class="mb-4">Contact Me!</h3>
 
               <!-- Contact form -->
               <form class="needs-validation row g-4" novalidate>
@@ -523,68 +520,6 @@ v
                 </div>
               </form>
             </div>
-
-            <!-- Benefits -->
-            <div class="col-lg-7 col-xl-6 offset-xl-1">
-              <div class="row row-cols-1 row-cols-sm-2">
-                <div class="col">
-
-                  <!-- Card -->
-                  <div class="card border-0 mb-4">
-                    <div class="card-body">
-                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="text-warning" d="M31.5412 14.6389C30.9843 23.6874 23.7303 30.927 14.6641 31.4828V35.9999H36.0671V14.6389H31.5412Z" fill="currentColor"></path>
-                        <path class="text-primary" d="M13.5469 27.0373C21.0277 27.0373 27.0922 20.9848 27.0922 13.5186H13.5469V27.0373Z" fill="currentColor"></path>
-                        <path class="text-warning" d="M26.3276 9.03734C24.475 3.77395 19.4522 0 13.5453 0C6.06443 0 0 6.0525 0 13.5187C0 19.4139 3.78139 24.4269 9.05514 26.2758V9.03734H26.3276Z" fill="currentColor"></path>
-                      </svg>
-                      <h3 class="h4" style="max-width: 180px;">Time zones ain't no thing</h3>
-                      <p class="card-text fs-sm">Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget libero.</p>
-                    </div>
-                  </div>
-
-                  <!-- Card -->
-                  <div class="card border-0 bg-primary" data-bs-theme="dark">
-                    <div class="card-body">
-                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.7496 11.4756C25.3743 8.85089 25.3743 4.59539 22.7496 1.97068C20.1249 -0.654032 15.8694 -0.654033 13.2447 1.97068C10.6199 4.59539 10.6199 8.85089 13.2447 11.4756C15.8694 14.1003 20.1249 14.1003 22.7496 11.4756Z" fill="white"></path>
-                        <path class="text-warning" d="M13.2173 26.3746C14.0903 24.3107 15.2282 22.395 16.6119 20.6516C12.48 16.1818 6.56698 13.3827 0 13.3827V36H11.2733C11.2733 32.6628 11.9274 29.4243 13.2173 26.3746Z" fill="currentColor"></path>
-                        <path class="text-warning" d="M36.0001 36.0001V13.3828C23.5089 13.3828 13.3828 23.5089 13.3828 36.0001H36.0001Z" fill="currentColor"></path>
-                      </svg>
-                      <h3 class="h4" style="max-width: 180px;">Flexible work terms</h3>
-                      <p class="card-text fs-sm">Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget libero.</p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="col d-flex flex-column pt-4 mt-sm-3">
-
-                  <!-- Card -->
-                  <div class="card border-0 order-sm-2 mb-4 mb-sm-0">
-                    <div class="card-body">
-                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="text-warning" d="M31.5412 14.6389C30.9843 23.6874 23.7303 30.927 14.6641 31.4828V35.9999H36.0671V14.6389H31.5412Z" fill="currentColor"></path>
-                        <path class="text-primary" d="M13.5469 27.0373C21.0277 27.0373 27.0922 20.9848 27.0922 13.5186H13.5469V27.0373Z" fill="currentColor"></path>
-                        <path class="text-warning" d="M26.3276 9.03734C24.475 3.77395 19.4522 0 13.5453 0C6.06443 0 0 6.0525 0 13.5187C0 19.4139 3.78139 24.4269 9.05514 26.2758V9.03734H26.3276Z" fill="currentColor"></path>
-                      </svg>
-                      <h3 class="h4" style="max-width: 180px;">Full spectrum of services</h3>
-                      <p class="card-text fs-sm">Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget libero.</p>
-                    </div>
-                  </div>
-
-                  <!-- Card -->
-                  <div class="card border-0 bg-primary order-sm-1 mb-sm-4" data-bs-theme="dark">
-                    <div class="card-body">
-                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.4844 22.4814H36.0031V36.0001H22.4844V22.4814Z" fill="white"></path>
-                        <path class="text-warning" d="M8.96266 18C8.96266 13.0088 13.0088 8.96266 18 8.96266C22.9912 8.96266 27.0373 13.0088 27.0373 18H36C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36V27.0373C13.0088 27.0373 8.96266 22.9912 8.96266 18Z" fill="currentColor"></path>
-                      </svg>
-                      <h3 class="h4" style="max-width: 180px;">Impossible? We're on it</h3>
-                      <p class="card-text fs-sm">Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget libero.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -600,16 +535,6 @@ v
           </div>
           <div class="container position-relative z-2 pt-md-3 pt-lg-4 pt-xl-5 pb-2">
             <div class="row pb-2">
-              <div class="col-lg-4 col-xxl-3 pb-2 pb-lg-0 mb-4 mb-lg-0">
-                <div class="navbar-brand text-light py-0 me-0 pb-1 mb-3">
-                  <span class="text-white opacity-90">Sima Gupta Tax Services</span>
-                </div>
-                <p class="text-body fs-sm mb-4">Tellus non diam morbi quam vel venenatis proin sed dolor elementum nunc</p>
-                <div class="input-group input-group-sm rounded-pill">
-                  <input class="form-control" type="text" placeholder="simagupta@simacpa.com">
-                  <button class="btn btn-primary rounded-pill" type="button">Subscribe</button>
-                </div>
-              </div>
               <div class="col-sm-4 col-lg-2 offset-lg-1 offset-xl-2 offset-xxl-3 mb-4 mb-sm-0">
                 <h6 class="fw-bold">Company</h6>
                 <ul class="nav flex-column fs-sm">
